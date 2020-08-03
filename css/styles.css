@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+.box{
+margin-top: 50px;
+    padding: 25px;
+    background-color: #cccccc;
+    border: 15px solid grey;
+    position: relative;
+    border-radius: 29px;
+}
+.badge{
+   
+    position: absolute;
+    background-color: hsl(5, 74%, 62%);
+    text-align: center;
+    
+    height: 20px;
+    top: -49px;
+   
+
+}
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  .background {
+    position:  absolute;
+    display:  block;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background: url('/images/aurora.jpg') no-repeat;
+  } 
+#h,#m,#s{
+    font-size: 49px;
+    font-family: 'Chilanka', cursive;
+    font-weight: bold;
+
+}
